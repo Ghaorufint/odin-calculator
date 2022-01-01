@@ -1,0 +1,66 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    min-height: 500px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.container {
+    width: 400px;
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: grey;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.btn.span-2 {
+    grid-column: span 2;
+    background-color: rgb(179, 185, 179);
+}
+
+.btn.op {
+    background-color:burlywood;
+}
+
+.screen {
+    height: 100px;
+    padding: 10px 20px;
+    border: 2px black solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(185, 233, 114);
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.btn {
+    padding: 5px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 30px;
+}
+
+.display {
+    font-size: 30px;
+}
+
+.previousDisplay {
+    min-height: 32px;
+    font-size: 20px;
+}
+  
+.display {
+    min-height: 64px;
+    font-size: 40px;
+}
